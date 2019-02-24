@@ -1,3 +1,16 @@
+/*
+ * INPUT:
+ * 			0 = rock
+ * 			1 = paper
+ * 			2 = scissors
+ * 
+ * I hope you enjoy this little program!!!
+ */
+
+
+
+
+
 import java.util.Scanner;
 
 public class Main {
@@ -27,7 +40,8 @@ public class Main {
 			System.out.println("Rock, paper, scissors!!!");
 			int ataque = sc.nextInt(); // Attack is the move of the opponent
 
-			// We need to differentiate between the first round and the other, because of how
+			// We need to differentiate between the first round and the other, because of
+			// how
 			// we maked the algorithm
 			if (first == true) {
 				// First Round
@@ -81,10 +95,15 @@ public class Main {
 			lastTwo[i] = ataque;
 			i++;
 
-			System.out.println(rock);
-			System.out.println(paper);
-			System.out.println(scissors);
-			System.out.println(defense);
+			/*
+			 * If you want to see the probabilities and the defense please uncomment this
+			 * lines!
+			 * 
+			 * System.out.println(rock); 
+			 * System.out.println(paper);
+			 * System.out.println(scissors); 
+			 * System.out.println(defense);
+			 */
 
 		}
 	}
